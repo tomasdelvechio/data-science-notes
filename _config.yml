@@ -1,2 +1,12 @@
+title: "Data Science Notes"
+author: "Tomas Delvechio"
+description: "Notas y apuntes derivados de mis estudios en Data Science." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+
+# Email / Social media user names used by the minima theme:
+# All of these are optional and can be removed or commented out
+email: "example@mail.com"
+twitter_username: "twitteruser"
+github_username: "githubuser"
+linkedin_username: "linkedinuser"
+
 theme: jekyll-theme-tactile
-future: true
