@@ -1,5 +1,11 @@
 ## Welcome to GitHub Pages
 
+  <ul>
+    {% for post in tag[1] %}
+      <li><a href="{{ post.url }}">{{ post.date | date: "%B %Y" }} - {{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
 You can use the [editor on GitHub](https://github.com/tomasdelvechio/data-science-notes/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
